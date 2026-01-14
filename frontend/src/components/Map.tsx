@@ -12,10 +12,10 @@ interface MapProps {
 const defaultIcon = new Icon({
   iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
   shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41],
+  iconSize: [12, 20],
+  iconAnchor: [6, 20],
+  popupAnchor: [1, -17],
+  shadowSize: [20, 20],
 });
 
 // 大ガード交差点
